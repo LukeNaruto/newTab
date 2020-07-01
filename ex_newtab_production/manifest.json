@@ -1,0 +1,20 @@
+{
+  
+  "manifest_version": 2,
+  "name": "xbrowser_newtab",
+  "version": "1.0.2",
+  "description": "漂亮清新的新标签页",
+  "icons": {},
+  "chrome_url_overrides": {
+    "newtab": "/index.html#/"
+  },
+  "permissions": [
+	"storage",
+	"tabs",
+	"settingsPrivate",
+	"http://*/*",
+	"https://*/*",
+	{ "fileSystem" : ["write", "directory"] }
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAycQvBIxEbpn0LKtBSI6BxMgzf67oWOmjr0aOr1Gb6q8f9yx7BWqncdwEIGkBDQpf7HZMJUbXwYLoHaMLbeDYepDNVqAZ1r6reYhoMyISVgk0vB5o/sfVv7rcVdIZc9aXxuTs78vcIF7IEStT0EXw/SOud1Oopjpfarih3vlQtcgL/sMEzWW25/USaZlCA3nzmt/CJ7faJICa091R7+XNz3saTorYyNmTkfgQlylUhylC7MyivSVwKN+M9ltFc3IPuED1XQ6B8yjPUC6NCHMLHSYwlr9BHfhNY1Rg9qXyuKvtXdwGRtpsz8eADzqREOy7j87uwJSuIPyIz4sbRhvVwwIDAQAB"
+}
